@@ -15,11 +15,11 @@ QALADIES 2021 GDORKS
 
 
 - Busca de dados dentro de texto (as letras não substituem os números):
-intext:"XXX.CCC.BBB-Q" 
-intext:"XXXCCCBBBQ" 
-intext:"YYOOOBBB" 
-intext:"YY/OO/BBBB" 
-intext:"YY-OO-BB" 
+1. intext:"XXX.CCC.BBB-Q" 
+2. intext:"XXXCCCBBBQ" 
+3. intext:"YYOOOBBB" 
+4. intext:"YY/OO/BBBB" 
+5. intext:"YY-OO-BB" 
 
 
 - intext:"Portador do CPF"
@@ -44,6 +44,6 @@ intext:"YY-OO-BB"
 
 - "rg" "cpf"  inurl:"o que tem dentroda url" OR "rg" "cpf inurl:".gov" filetype:pdf
 
-#aprovados
+- #aprovados
 
-"cpf"  "pagamento" "boleto" filetype:pdf
+- "cpf"  "pagamento" "boleto" filetype:pdf
